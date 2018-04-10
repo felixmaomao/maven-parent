@@ -19,7 +19,7 @@
         <redis.version>2.8.1</redis.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <distribution.repository.url>http://192.168.137.105:8081/repository</distribution.repository.url>
+        <distribution.repository.url></distribution.repository.url>
     </properties>
     <dependencies>
         <dependency>
@@ -343,20 +343,15 @@
             <artifactId>scala-library</artifactId>
             <version>2.10.4</version>
         </dependency>
-        <dependency>
-            <groupId>io.spray</groupId>
-            <artifactId>spray-client_2.11</artifactId>
-            <version>1.3.1-20140423</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>io.spray</groupId>-->
+            <!--<artifactId>spray-client_2.11</artifactId>-->
+            <!--<version>1.3.1-20140423</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.springframework.integration</groupId>
             <artifactId>spring-integration-kafka</artifactId>
             <version>1.2.0.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.jdd</groupId>
-            <artifactId>alisoft-xplatform-asf-cache</artifactId>
-            <version>2.5.1</version>
         </dependency>
         <!-- dubbo -->
         <dependency>
